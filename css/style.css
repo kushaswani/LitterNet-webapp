@@ -1,0 +1,87 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Apercu;
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
+.title {
+  text-align: center;
+  font-family: "Avenir Next"
+}
+
+
+
+#container {
+  /* height: 500px; */
+  padding: 20px;
+  font-size: 14px;
+  font-family: "Avenir Next";
+  border-radius: 33px;
+  text-align: center;
+}
+
+#text-container {
+  /* height: 100px; */
+  width: 100%;
+  text-align: center;
+}
+
+#instruction {
+  margin-top: 20px;
+}
+
+.result-color {
+  color: #000000;
+  font-family: "Avenir Next";
+}
+
+.green-color {
+  color: #0bcf82;
+}
+
+.highlight {
+  opacity: 0.4;
+  background-color: rgb(255,255,255);
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#fileUploader {
+  opacity: 0;
+}
+
+
+#uploader-btn {
+  background: #faebd700;
+  margin-top: 1em;
+  color: #0bcf81;
+  border: solid 1px #0bcf81;
+  padding: .6em 2em;
+  line-height: 2;
+  font-size: 12px;
+  font-family: "Avenir Next";
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+#uploader-btn:hover {
+  color: white;
+  background-color: #0bcf82;
+  border: solid 1px #0bcf82;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
